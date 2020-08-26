@@ -92,7 +92,7 @@ int init_resources()
   uniform_name = "fade";
   uniform_fade = glGetUniformLocation(program, uniform_name);
   if (uniform_fade == -1) {
-    fprintf(stderr, "Could not bind uniform_fade %s\n", uniform_name);
+    fprintf(stderr, "Could not bind uniform %s\n", uniform_name);
     return 0;
   }
 

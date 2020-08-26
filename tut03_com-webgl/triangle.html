@@ -86,7 +86,7 @@ function init_resources() {
     uniformName = 'fade';
     uniformFade = gl.getUniformLocation(program, uniformName);
     if (uniformFade == -1) {
-	console.error('Could not bind uniform_fade ' + uniformName);
+	console.error('Could not bind uniform ' + uniformName);
 	return false;
     }
 
